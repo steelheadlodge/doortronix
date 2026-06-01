@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact &amp; Request Service — Doortronix NY Tri-State</title>
+  <meta name="description" content="Contact Doortronix for automatic door installation, maintenance, or emergency repair in NY, NJ, and CT. Call (888) 453-5196 or submit a service request online.">
+
+  <!-- Open Graph / Twitter share preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Doortronix">
+  <meta property="og:url" content="https://doortronix.com/contact.html">
+  <meta property="og:title" content="Contact Doortronix — NY Tri-State Service &amp; Quotes">
+  <meta property="og:description" content="Contact Doortronix for automatic door installation, maintenance, or emergency repair in NY, NJ, and CT. 24/7 emergency line available.">
+  <meta property="og:image" content="https://doortronix.com/images/revolution.jpg">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="585">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://doortronix.com/images/revolution.jpg">
+
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      align-items: start;
+    }
+    .info-block { margin-bottom: 28px; }
+    .info-block h4 { font-size: 13px; font-weight: 700; letter-spacing: .8px; text-transform: uppercase; color: var(--mgray); margin-bottom: 8px; }
+    .info-block .value { font-size: 18px; font-weight: 700; color: var(--blue); }
+    .info-block .value a { color: var(--blue); }
+    .info-block .sub { font-size: 13px; color: var(--mgray); margin-top: 3px; }
+    @media (max-width: 720px) {
+      .contact-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="emergency-bar">
+  🚨 24/7 Emergency Repair — Call Now: <a href="tel:+18884535196">(888) 453-5196</a>
+</div>
+<div class="topbar">
+  <div class="container">
+    <strong>Serving NY, NJ &amp; CT</strong> &nbsp;|&nbsp;
+    Licensed &amp; Insured &nbsp;|&nbsp;
+    <a href="contact.html">Request Service</a> &nbsp;|&nbsp;
+    <a href="tel:+18884535196">(888) 453-5196</a>
+  </div>
+</div>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo" style="text-decoration:none;">
+      <div class="brand">Doortronix<span></span></div>
+      <div class="tagline">Automatic Door Sales &amp; Service — NY Tri-State</div>
+    </a>
+    <div class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></div>
+    <div class="nav-links">
+      <a href="services.html">Services</a>
+      <a href="products.html">Products</a>
+      <a href="service-area.html">Service Area</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="btn-nav-cta">Request Service</a>
+    </div>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="container">
+    <h1>Contact Us</h1>
+    <p>For emergencies, call us directly. For quotes and non-urgent service, submit the form below.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- Left: form -->
+      <div>
+        <h2 style="font-size:22px; font-weight:700; color:var(--blue); margin-bottom:6px;">Service Request or Quote</h2>
+        <p style="color:var(--mgray); font-size:14px; margin-bottom:28px;">Fill out the form and we'll get back to you within one business day.</p>
+
+        <form class="form-card" action="https://formspree.io/f/XXXXXXXX" method="POST" id="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name <span class="required">*</span></label>
+              <input type="text" id="name" name="name" required placeholder="Your name">
+            </div>
+            <div class="form-group">
+              <label for="company">Company / Facility</label>
+              <input type="text" id="company" name="company" placeholder="Optional">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone <span class="required">*</span></label>
+              <input type="tel" id="phone" name="phone" required placeholder="(212) 555-0000">
+            </div>
+            <div class="form-group">
+              <label for="email">Email <span class="required">*</span></label>
+              <input type="email" id="email" name="email" required placeholder="you@example.com">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="location">Service Location (city/state) <span class="required">*</span></label>
+            <input type="text" id="location" name="location" required placeholder="e.g. Manhattan, NY">
+          </div>
+          <div class="form-group">
+            <label for="request_type">Request Type <span class="required">*</span></label>
+            <select id="request_type" name="request_type" required>
+              <option value="">— Select —</option>
+              <option value="Emergency Repair">Emergency Repair</option>
+              <option value="Scheduled Repair">Scheduled Repair / Troubleshooting</option>
+              <option value="New Installation Quote">New Installation Quote</option>
+              <option value="PM Contract">Preventive Maintenance Contract</option>
+              <option value="Code Inspection">Code / Compliance Inspection</option>
+              <option value="Modernization">Modernization / Upgrade</option>
+              <option value="General Question">General Question</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="door_brand">Door Brand / System (if known)</label>
+            <input type="text" id="door_brand" name="door_brand" placeholder="e.g. Doortronix Revolution, Stanley Duraglide…">
+          </div>
+          <div class="form-group">
+            <label for="message">Describe What You Need <span class="required">*</span></label>
+            <textarea id="message" name="message" required placeholder="Tell us what's happening or what you're looking to do. Include door type, location, and any relevant details."></textarea>
+          </div>
+          <input type="hidden" name="_subject" value="Doortronix Service / Quote Request">
+          <button type="submit" class="btn btn-primary" style="width:100%; font-size:15px; padding:13px;">Send Request</button>
+        </form>
+
+        <div id="form-success" style="display:none; background:#DCFCE7; border:1px solid #86EFAC; border-radius:8px; padding:24px; margin-top:16px; text-align:center;">
+          <div style="font-size:28px; margin-bottom:8px;">✅</div>
+          <div style="font-weight:700; color:#166534; font-size:16px;">Request Received</div>
+          <div style="color:#166534; margin-top:6px; font-size:14px;">We'll follow up within one business day. For emergencies, call <a href="tel:+18884535196" style="color:#166534;">(888) 453-5196</a>.</div>
+        </div>
+      </div>
+
+      <!-- Right: contact info -->
+      <div>
+        <h2 style="font-size:22px; font-weight:700; color:var(--blue); margin-bottom:24px;">Contact Information</h2>
+
+        <div class="info-block">
+          <h4>Emergency Line (24/7)</h4>
+          <div class="value"><a href="tel:+18884535196">(888) 453-5196</a></div>
+          <div class="sub">Same-day response for door-down emergencies</div>
+        </div>
+
+        <div class="info-block">
+          <h4>General Inquiries</h4>
+          <div class="value"><a href="mailto:service@doortronix.com">service@doortronix.com</a></div>
+          <div class="sub">Quotes, scheduling, and general questions</div>
+        </div>
+
+        <div class="info-block">
+          <h4>Fax</h4>
+          <div class="value" style="font-size:16px;">(888) 579-4639</div>
+          <div class="sub">For submittals, POs, and written requests</div>
+        </div>
+
+        <div class="info-block">
+          <h4>Business Hours</h4>
+          <div class="value" style="font-size:15px; font-weight:600;">Monday – Friday, 7:00 AM – 5:00 PM</div>
+          <div class="sub">Emergency calls answered 24/7</div>
+        </div>
+
+        <div class="info-block">
+          <h4>Service Area</h4>
+          <div style="font-size:15px; color:var(--text); font-weight:600; margin-bottom:4px;">New York · New Jersey · Connecticut</div>
+          <div class="sub">See our full <a href="service-area.html">service area coverage →</a></div>
+        </div>
+
+        <div style="background:var(--lgray); border-radius:10px; padding:24px; margin-top:16px;">
+          <h4 style="font-size:13px; font-weight:700; color:var(--blue); letter-spacing:.5px; text-transform:uppercase; margin-bottom:10px;">Factory Orders &amp; Specifications</h4>
+          <p style="font-size:14px; color:var(--mgray); margin-bottom:12px;">Need a door manufactured to order for a project? Factory-direct ordering is handled through our manufacturing partner.</p>
+          <a href="https://doortronixusa.com/quote-combined.html" class="btn btn-outline" target="_blank" rel="noopener" style="font-size:13px; padding:9px 18px;">Get a Factory Quote at DoortronixUSA.com →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="brand">Doortronix<span style="color:var(--orange)"></span></div>
+        <p>Automatic door sales, installation, and service in the New York tri-state area. Factory-authorized Doortronix dealer. Licensed and insured.</p>
+        <div class="made-in">🗽 Serving NY · NJ · CT</div>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#installation">Installation</a></li>
+          <li><a href="services.html#maintenance">Preventive Maintenance</a></li>
+          <li><a href="services.html#emergency">Emergency Repair</a></li>
+          <li><a href="services.html#inspections">Code Inspections</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="service-area.html">Service Area</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+18884535196">(888) 453-5196</a></li>
+          <li><a href="mailto:service@doortronix.com">service@doortronix.com</a></li>
+        </ul>
+        <div style="margin-top:16px;">
+          <a href="https://doortronixusa.com" target="_blank" rel="noopener" style="color:#64748B; font-size:12px;">Manufacturing: DoortronixUSA.com →</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Doortronix. All rights reserved.</span>
+      <span>Licensed Automatic Door Contractor · NY · NJ · CT</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+document.getElementById('contact-form').addEventListener('submit', async function(e) {
+  e.preventDefault();
+  const form = e.target;
+  const btn = form.querySelector('button[type="submit"]');
+  btn.textContent = 'Sending…';
+  btn.disabled = true;
+  try {
+    const res = await fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    });
+    if (res.ok) {
+      form.style.display = 'none';
+      document.getElementById('form-success').style.display = 'block';
+    } else {
+      btn.textContent = 'Error — please call us directly';
+      btn.disabled = false;
+    }
+  } catch {
+    btn.textContent = 'Error — please call us directly';
+    btn.disabled = false;
+  }
+});
+</script>
+</body>
+</html>
