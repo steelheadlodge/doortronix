@@ -195,7 +195,8 @@ img { max-width: 100%; display: block; }
   transition: box-shadow .2s, border-color .2s;
 }
 .service-card:hover { box-shadow: 0 6px 20px rgba(27,79,138,.1); border-color: var(--blue); }
-.service-icon { font-size: 34px; margin-bottom: 14px; }
+.service-icon { margin-bottom: 14px; line-height: 1; }
+.service-icon svg { width: 28px; height: 28px; display: block; }
 .service-card h3 { font-size: 16.5px; color: var(--blue); margin-bottom: 8px; font-weight: 700; }
 .service-card p { font-size: 14px; color: var(--mgray); line-height: 1.6; }
 .service-card .learn-more { display: inline-block; margin-top: 14px; font-size: 13px; font-weight: 700; color: var(--orange); }
@@ -216,7 +217,8 @@ img { max-width: 100%; display: block; }
 }
 .why-card h3 { font-size: 16px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
 .why-card p { font-size: 14px; color: var(--mgray); line-height: 1.6; }
-.why-icon { font-size: 32px; margin-bottom: 14px; }
+.why-icon { margin-bottom: 14px; line-height: 1; }
+.why-icon svg { width: 28px; height: 28px; display: block; }
 .highlight { background: #FEF3E2; color: #92400E; padding: 1px 4px; border-radius: 3px; }
 
 /* ── Stats bar ──────────────────────────────────────────────── */
