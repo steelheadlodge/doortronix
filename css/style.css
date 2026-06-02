@@ -385,7 +385,8 @@ img { max-width: 100%; display: block; }
   gap: 40px;
   margin-bottom: 40px;
 }
-.footer-brand .brand { font-size: 20px; margin-bottom: 12px; }
+.footer-brand .brand { font-size: 20px; font-weight: 700; color: #fff; margin-bottom: 12px; }
+.footer-brand .brand span { color: var(--orange); }
 .footer-brand p { line-height: 1.65; color: #64748B; }
 .made-in { margin-top: 16px; font-size: 12px; color: #475569; }
 .footer h4 { color: #CBD5E1; font-size: 12px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 14px; }
