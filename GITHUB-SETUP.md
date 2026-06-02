@@ -2,7 +2,7 @@
 
 ## Overview
 Static site hosted on GitHub Pages, served at `doortronix.com`.
-NY tri-state area sales & service company.  
+Northeast sales & service division (NY, NJ, CT, PA, MA).  
 Sister site: **doortronixusa.com** (manufacturing / factory-direct).
 
 ---
