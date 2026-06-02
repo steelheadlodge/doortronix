@@ -134,8 +134,17 @@ img { max-width: 100%; display: block; }
   background: linear-gradient(135deg, var(--dblue) 0%, var(--blue) 100%);
   color: #fff;
   padding: 80px 20px 72px;
+  position: relative;
+  overflow: hidden;
 }
-.hero-inner { max-width: 760px; margin: 0 auto; }
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('../images/hero-door.jpg') center/cover no-repeat;
+  opacity: .18;
+}
+.hero-inner { max-width: 760px; margin: 0 auto; position: relative; }
 .hero-eyebrow {
   font-size: 12px;
   font-weight: 700;
