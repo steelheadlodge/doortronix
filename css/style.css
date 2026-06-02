@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════════
-   Doortronix — NY Tri-State Sales & Service
+   Doortronix — NY · NJ · CT Sales & Service
    Same brand palette as doortronixusa.com, service-oriented tone
 ═══════════════════════════════════════════════════════════════ */
 
@@ -78,7 +78,7 @@ img { max-width: 100%; display: block; }
   letter-spacing: .5px;
   line-height: 1.1;
 }
-.nav-logo .brand span { color: var(--orange); font-size: 0.72em; letter-spacing: 0; }
+.nav-logo .brand span { color: var(--orange); }
 .nav-logo .tagline { font-size: 11px; color: #B8CCE4; letter-spacing: .3px; }
 .nav-links {
   display: flex;
