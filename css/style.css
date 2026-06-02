@@ -58,7 +58,8 @@ img { max-width: 100%; display: block; }
   justify-content: space-between;
   height: 64px;
 }
-.nav-logo { text-decoration: none; }
+.nav-logo { text-decoration: none; display: flex; align-items: center; gap: 10px; line-height: 1.15; }
+.nav-logo-mark { height: 44px; width: auto; display: block; flex-shrink: 0; }
 .brand { font-size: 22px; font-weight: 700; color: var(--blue); letter-spacing: -.5px; line-height: 1.1; }
 .brand span { color: var(--orange); }
 .tagline { font-size: 10.5px; color: var(--mgray); letter-spacing: .3px; }
