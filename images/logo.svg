@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" width="480" height="260">
+
+  <!-- Background -->
+  <rect width="480" height="260" fill="#1B4F8A" rx="10"/>
+
+  <!-- Door panels (3 vertical bars, centered) -->
+  <rect x="210" y="62" width="16" height="72" fill="#E87722" rx="2"/>
+  <rect x="232" y="62" width="16" height="72" fill="#E87722" rx="2"/>
+  <rect x="254" y="62" width="16" height="72" fill="#E87722" rx="2"/>
+
+  <!-- Left arrow shaft -->
+  <rect x="72" y="92" width="134" height="12" fill="#E87722"/>
+  <!-- Left arrowhead (pointing left) -->
+  <polygon points="48,98 82,72 82,124" fill="#E87722"/>
+
+  <!-- Right arrow shaft -->
+  <rect x="274" y="92" width="134" height="12" fill="#E87722"/>
+  <!-- Right arrowhead (pointing right) -->
+  <polygon points="432,98 398,72 398,124" fill="#E87722"/>
+
+  <!-- DOORTRONIX text -->
+  <text
+    x="240"
+    y="192"
+    font-family="'Arial Black', 'Arial Bold', Arial, Helvetica, sans-serif"
+    font-weight="900"
+    font-size="44"
+    fill="#E87722"
+    text-anchor="middle"
+    letter-spacing="5">DOORTRONIX</text>
+
+  <!-- Tagline -->
+  <text
+    x="240"
+    y="222"
+    font-family="Arial, Helvetica, sans-serif"
+    font-weight="400"
+    font-size="12"
+    fill="#B8CCE4"
+    text-anchor="middle"
+    letter-spacing="3">NY  ·  SALES &amp; SERVICE DIVISION</text>
+
+</svg>
